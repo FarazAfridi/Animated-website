@@ -1,0 +1,46 @@
+.navbar {
+    z-index: 1;
+    position: absolute;
+    color: white;
+    width: 100vw;
+    font-size: 1.5rem;
+}
+
+.navbar > ul {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar > ul > li {
+    list-style: none;
+    margin-left: 90px;
+}
+
+.nav_icon {
+    display: none;
+}
+
+@media only screen and (max-width: 860px) {
+    .navbar > ul > li {
+        margin-left: 20px;
+        font-size: 1rem;
+    }
+  }
+
+
+@media only screen and (max-width: 500px) {
+    .li {
+        display: none;
+    }
+    .nav_icon {
+        display: block;
+    }
+    .navbar > ul > li {
+        margin-left: auto;
+        margin-right: 20px;
+    }
+  }
