@@ -63,7 +63,7 @@ const Hero = () => {
         
   return <div >
   <Navbar />
-   <svg style={{position: 'relative'}} width="100vw" height="100%" viewBox="0 0 1347 1024" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+   <svg style={{position: 'relative'}} width="100%" height="100%" viewBox="0 0 1347 1024" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
 <g id="Desktop - 1" clipPath="url(#clip0)">
 <rect width="1347" height="1024" fill="white"/>
 <path id="Rectangle 1" d="M-106.419 -122.513C-122.396 -161.177 -133.271 -193.379 -94.6066 -209.357L1312.49 -790.818C1362.18 -811.353 1419.11 -787.716 1439.65 -738.022L1743.69 -2.27122C1753.12 20.5482 1801.34 137.256 1840.17 231.204C1861.26 282.246 1836.98 340.717 1785.94 361.809L1542.42 462.439L1128.18 633.617L506.788 890.399C502.065 892.35 497.522 894.698 493.056 897.181C476.336 906.476 456.692 914.544 433.887 923.222C382.27 942.863 323.442 917.72 302.35 866.678L-106.419 -122.513Z" fill="url(#paint0_linear)"/>
